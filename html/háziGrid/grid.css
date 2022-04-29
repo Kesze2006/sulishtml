@@ -1,0 +1,16 @@
+body{
+    background-color: aqua;
+}
+#container{
+    background-color:violet;
+    display: grid;
+    grid-template-columns: auto auto auto auto auto auto;
+    grid-template-rows: auto auto auto auto auto auto;
+}
+#container div{
+    border: 1px solid red;
+}
+.item1{
+    background-color:khaki;
+    grid-column: 1 / 7;
+}
