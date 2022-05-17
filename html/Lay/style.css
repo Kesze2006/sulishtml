@@ -5,6 +5,39 @@ header{
     height: 100px;
     padding: 20px;
     text-align: right;
+    background-image: url("images/kastely.jpg");
+    background-position-y: center;
+    background-position-x: center;
+    color: white;
+}
+nav{
+    color: royalblue;
+    padding-left: 40px;
+}
+nav a{
+    color: salmon;
+    text-decoration: none;
+}
+nav li{
+    list-style: none;
+    padding: 10px;
+}
+nav ul{
+    padding: 0px;
+}
+nav a:hover li{
+    color: darkcyan;
+    background-color: gold;
+}
+footer{
+    text-align: center;
+    color: goldenrod;
+    min-height: 50px;
+    padding-top: 15px;
+}
+
+body{
+    margin: 0px;
 }
 
 header{
@@ -20,7 +53,7 @@ footer{
     background-color: blueviolet;
 }
 nav{
-    background-color: chartreuse;
+    background-color: rgb(38, 68, 78)
 }
 #grid-container{
     display: grid;
