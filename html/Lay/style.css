@@ -49,6 +49,15 @@ footer{
     color: white;
     border-bottom: 1px solid white;
 }
+.tartalom{
+    padding: 10px;
+    background-color: white;
+}
+.tartalom h2{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-variant: small-caps;
+}
 
 body{
     margin: 0px;
@@ -57,14 +66,11 @@ body{
 header{
     background-color: #ff4465
 }
-.tartalom{
-    background-color: blue;
-}
 .jobbsav{
     background-color:  rgb(18, 41, 59) 
 }
 footer{
-    background-color: blueviolet;
+    background-color: rgb(18, 41, 59)
 }
 nav{
     background-color: rgb(18, 41, 59)
@@ -94,7 +100,7 @@ nav{
 /* monitor*/
 @media only screen and (min-width:1200px) {
     footer{
-        background-color: brown;
+        background-color: rgb(18, 41, 59)
     }
     #grid-container{
         grid-template-columns: 25% 55% 20%;
@@ -104,6 +110,6 @@ nav{
     header{ grid-column: 1 / 4;}
     nav { grid-column: 1;}
     .jobbsav{ grid-column: 3;}
-    .tartalom{ grid-column: 2;}
+    .tartalom{ grid-column: 2; grid-row: 2;}
     footer{ grid-column: 1 / 4;}
 }
