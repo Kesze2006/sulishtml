@@ -58,6 +58,11 @@ footer{
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-variant: small-caps;
 }
+.tartalom picture *{
+    max-width: 50%;
+    float:left;
+    margin-right: 10px;
+}
 
 body{
     margin: 0px;
