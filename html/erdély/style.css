@@ -27,7 +27,7 @@ nav ul{
 }
 nav a:hover li{
     color: darkcyan;
-    background-color: gold;
+    background-color: white;
 }
 footer{
     text-align: center;
@@ -62,14 +62,9 @@ footer{
 section p{
  background-color: rgb(18, 41, 59);
 }
-.tartalom picture *{
-    max-width: 50%;
-    float:left;
-    margin-right: 10px;
-}
 
 body{
-    margin: 0px;
+    margin: 50px;
 }
 
 header{
