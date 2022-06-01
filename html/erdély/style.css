@@ -27,7 +27,7 @@ nav ul{
 }
 nav a:hover li{
     color: darkcyan;
-    background-color: gold;
+    background-color: white;
 }
 footer{
     text-align: center;
@@ -64,7 +64,7 @@ section p{
 }
 
 body{
-    margin: 0px;
+    margin: 50px;
 }
 
 header{
