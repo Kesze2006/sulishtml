@@ -11,11 +11,11 @@ header{
     color: white;
 }
 nav{
-    color: royalblue;
+    color:goldenrod;
     padding-left: 40px;
 }
 nav a{
-    color: salmon;
+    color: goldenrod;
     text-decoration: none;
 }
 nav li{
@@ -36,40 +36,62 @@ footer{
     padding-top: 15px;
 }
 .infobox{
-    background-color: royalblue;
+    background-color:goldenrod;
     margin: 10px;
     padding: 10px;
-    border: 5px solid darkred;
+    border: 5px solid rgb(85, 83, 83);
     border-radius: 5px;
 }
 .infobox h3{
     margin: 0px;
     text-align: center;
-    background-color: black;
-    color: white;
+    background-color:rgb(85, 83, 83);
+    color:white;
     border-bottom: 1px solid white;
 }
 .tartalom{
     padding: 10px;
-    background-color: white;
+    background-color:rgb(18, 41, 59);
 }
 .tartalom h2{
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-variant: small-caps;
-    background-color: rgb(18, 41, 59);
-}
-section p{
- background-color: rgb(18, 41, 59);
+    color: white;
 }
 
+#nap{
+    text-align: center;
+    
+}
+section p{
+    font-weight: bold;
+    color: white;
+}
+h3 {
+    color: white;
+}
+#templom{
+    max-width: 50%;
+    padding-left: 20%;
+}
+#szin{
+    color: rgb(85, 83, 83);
+}
+#hatar{
+    max-width: 50%;
+    float: left;
+    margin: 20px;
+}
+#kolozs{
+    max-width: 40%;
+    float: left;
+    margin: 10px;
+}
 body{
     margin: 50px;
 }
 
-header{
-    background-color: #ff4465
-}
 .jobbsav{
     background-color:  rgb(18, 41, 59) 
 }
